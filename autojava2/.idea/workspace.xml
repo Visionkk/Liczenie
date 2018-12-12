@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca878a8-1059-4c2f-8759-aa412afa8999" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,15 +29,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+            <state relative-caret-position="528">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#canFindCodeSprintersOnGoogle#0;class#SeleniumTests#0" />
-                <element signature="e#1489#1490#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#startDriver#0;class#SeleniumTests#0" />
+                <element signature="method#verifyAuthorOfBlogNoteAboutTransformations#0;class#SeleniumTests#0" />
               </folding>
             </state>
           </provider>
@@ -70,6 +82,8 @@
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/MyTestB.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/MyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/basic/testinstruktora.java" />
       </list>
     </option>
   </component>
@@ -189,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612984049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544624173821" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -210,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations">
+  <component name="RunManager" selected="JUnit.WordpressTests">
     <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
@@ -239,22 +253,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="autojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.basic" />
-      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
-      <option name="METHOD_NAME" value="canFindCodeSprintersOnGoogle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
@@ -271,7 +269,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTests.verifyAuthorofBlogNoteAboutTransformations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordpressTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
@@ -280,8 +278,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.basic" />
-      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
-      <option name="METHOD_NAME" value="verifyAuthorofBlogNoteAboutTransformations" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.WordpressTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordpressTests.PublicCommentOnFirstPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.WordpressTests" />
+      <option name="METHOD_NAME" value="PublicCommentOnFirstPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordpressTests" />
+        <item itemvalue="JUnit.WordpressTests.PublicCommentOnFirstPost" />
         <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" />
         <item itemvalue="JUnit.MyTest" />
         <item itemvalue="JUnit.SeleniumTests" />
-        <item itemvalue="JUnit.SeleniumTests.verifyAuthorofBlogNoteAboutTransformations" />
-        <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle" />
       </list>
     </recent_temporary>
   </component>
@@ -322,39 +334,53 @@
       <option name="project" value="LOCAL" />
       <updated>1544601251191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dodany test selenium">
+      <created>1544612990362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544612990362</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dodany test selenium">
+      <created>1544613014448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544613014448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTests_verifyAuthorofBlogNoteAboutTransformations - 2018.12.12 at 10h 16m 20s.xml">
-      <configuration name="SeleniumTests.verifyAuthorofBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests_PublicCommentOnFirstPost - 2018.12.12 at 12h 24m 00s.xml">
+      <configuration name="WordpressTests.PublicCommentOnFirstPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.12 at 10h 16m 52s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="WordpressTests - 2018.12.12 at 12h 24m 09s.xml">
+      <configuration name="WordpressTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorofBlogNoteAboutTransformations - 2018.12.12 at 10h 17m 07s.xml">
-      <configuration name="SeleniumTests.verifyAuthorofBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests - 2018.12.12 at 12h 30m 22s.xml">
+      <configuration name="WordpressTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests - 2018.12.12 at 10h 37m 51s.xml">
-      <configuration name="SeleniumTests" configurationId="JUnit" />
+    <history-entry file="WordpressTests_PublicCommentOnFirstPost - 2018.12.12 at 12h 33m 48s.xml">
+      <configuration name="WordpressTests.PublicCommentOnFirstPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest - 2018.12.12 at 10h 48m 12s.xml">
-      <configuration name="MyTest" configurationId="JUnit" />
+    <history-entry file="WordpressTests_PublicCommentOnFirstPost - 2018.12.12 at 12h 35m 50s.xml">
+      <configuration name="WordpressTests.PublicCommentOnFirstPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 27m 01s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests_PublicCommentOnFirstPost - 2018.12.12 at 14h 08m 48s.xml">
+      <configuration name="WordpressTests.PublicCommentOnFirstPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 27m 12s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests_PublicCommentOnFirstPost - 2018.12.12 at 14h 10m 55s.xml">
+      <configuration name="WordpressTests.PublicCommentOnFirstPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 30m 15s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests_PublicCommentOnFirstPost - 2018.12.12 at 14h 33m 39s.xml">
+      <configuration name="WordpressTests.PublicCommentOnFirstPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 45m 07s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests - 2018.12.12 at 14h 36m 08s.xml">
+      <configuration name="WordpressTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 51m 47s.xml">
-      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
+    <history-entry file="WordpressTests - 2018.12.12 at 14h 55m 03s.xml">
+      <configuration name="WordpressTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -405,6 +431,26 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java</url>
+          <line>23</line>
+          <properties class="selenium.basic.WordpressTests" method="PublicCommentOnFirstPost">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -454,13 +500,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+        <state relative-caret-position="389">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#canFindCodeSprintersOnGoogle#0;class#SeleniumTests#0" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="method#startDriver#0;class#SeleniumTests#0" />
+            <element signature="method#verifyAuthorOfBlogNoteAboutTransformations#0;class#SeleniumTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/testinstruktora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
           </folding>
         </state>
       </provider>
