@@ -17,12 +17,12 @@ public class GoogleResultPage {
 
     public boolean containsResults(String resultUrl) {
         Stream<WebElement> results = getResultsByUrl(resultUrl);
-        return results.count() > 0
+        return results.count() > 0;
     }
 
     public boolean containsResultsWithTitle(String pageUrl, String pageTitle) {
-        Stream<WebElement> results = getResultsByUrl(resultUrl)
-                .filter<r -> r.findElement(LOC_RESULT_TITLE).getText().equals(pageTitle);
+        Stream<WebElement> results = getResultsByUrl(pageUrl)
+                .filter(r -> r.findElement(LOC_RESULT_TITLE).getText().equals(pageTitle));
 
         return results.count() > 0;
     }
@@ -30,6 +30,6 @@ public class GoogleResultPage {
     private Stream<WebElement> getResultsByUrl(String resultUrl) {
         return driver.findElements(LOC_RESULT)
                 .stream()
-                .filter(r - > r.findElement(By.tagName("a")).getAttribute("href").equals(resultUrl)
+                .filter(r -> r.findElement(By.tagName("a")).getAttribute("href").equals(resultUrl));
     }
 }

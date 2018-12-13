@@ -16,6 +16,6 @@ public class WpNotePage {
 
     public boolean commentExists(String comment, String author) {
         // here you check that comment is published
-        return false
+        return false;
     }
 }

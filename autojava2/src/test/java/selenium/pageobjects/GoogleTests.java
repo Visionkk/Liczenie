@@ -1,9 +1,10 @@
 package selenium.pageobjects;
 
 import org.junit.jupiter.api.Test;
-import selenium.pageobjects.BiforAfter;
 import selenium.pageobjects.pages.GoogleMainPage;
 import selenium.pageobjects.pages.GoogleResultPage;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GoogleTests extends BiforAfter {
 
@@ -16,14 +17,8 @@ public class GoogleTests extends BiforAfter {
         GoogleResultPage resultPage = googlePage.search("Scrum.org");
 
         assertTrue(resultPage.containsResults(scrumOrgUrl));
-        assertTrue(resultPage.containsResultsWithTitle(scrumOrgUrl, scrumOrgPageTitle), 
-                "Scrum.org page has correct title")
+        assertTrue(resultPage.containsResultsWithTitle(scrumOrgUrl, scrumOrgPageTitle),
+                "Scrum.org page has correct title");
     }
-
-    private void assertTrue(boolean containsResults) {
-    }
-
-    @Test
-
 
 }

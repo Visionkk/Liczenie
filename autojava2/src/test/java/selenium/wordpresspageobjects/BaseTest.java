@@ -6,11 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseTest {
-    protected WebDriver driver
+    protected WebDriver driver;
 
     @BeforeEach
     public void startBrowser() {
-        driver = new ChromeDriver()
+        driver = new ChromeDriver();
     }
 
     @AfterEach

@@ -31,6 +31,6 @@ public class WordPressTest extends BaseTest {
     }
 
     private String generateRandomText() {
-        return UUID.randomUUID().toString()
+        return UUID.randomUUID().toString();
     }
 }

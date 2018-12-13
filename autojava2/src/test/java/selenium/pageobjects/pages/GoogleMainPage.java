@@ -19,5 +19,7 @@ public class GoogleMainPage {
         WebElement searchBox = gmpDriver.findElement(LOC_SEARCH_BOX);
         searchBox.sendKeys(searchQuery);
         searchBox.submit();
+
+        return new GoogleResultPage(gmpDriver);
     }
 }
